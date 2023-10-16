@@ -2,3 +2,7 @@
 ![4-5 3](https://github.com/daum88/opsys2023/assets/68275432/dcdd5ac7-7f57-41e2-9818-876789f3d910)
 ![4-5](https://github.com/daum88/opsys2023/assets/68275432/cbe7e7c8-bb59-479d-998b-db61942b9971)
 ![4-7](https://github.com/daum88/opsys2023/assets/68275432/54648c55-504e-49c3-a0c1-7425559422a2)
+![4-3](https://github.com/daum88/opsys2023/assets/68275432/5da0a99a-2244-49d5-ae5b-5b310e1f9468)
+![4-6](https://github.com/daum88/opsys2023/assets/68275432/5d23b1a2-2cd9-47f6-989c-6e612674b04f)
+![4-9](https://github.com/daum88/opsys2023/assets/68275432/6c5c07f4-d640-491b-9f03-a62f571c327d)
+![4-10](https://github.com/daum88/opsys2023/assets/68275432/4aae7cfe-63b0-470a-b4c0-3d555ed5cdd8)
