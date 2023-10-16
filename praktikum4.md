@@ -50,8 +50,9 @@ SYSTEM: SYSTEM-kontol on samad failiõigused nagu administraatoril, kuid seda ka
 
 
 
-4.7
-
+          
+          
+          4.7
 
 
 
