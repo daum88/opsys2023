@@ -16,6 +16,19 @@
 
 4.4
 
+Kasutusala:
+
+Administrator: Administratori konto võimaldab teha süsteemiulatuslikke muudatusi arvutis, nagu teiste kasutajakontode nimede, piltide, paroolide ja tüüpide muutmine​1​. Administratori konto võib konfigureerida süsteemi seadeid ja pääseda juurde tavaliselt piiratud osadele operatsioonisüsteemist.
+SYSTEM: SYSTEM-konto on mõeldud operatsioonisüsteemi ja Windowsi all töötavate teenuste kasutamiseks. Paljud Windowsi teenused ja protsessid vajavad võimalust sisemiseks sisselogimiseks, mida SYSTEM-konto võimaldab​2​.
+Konto Tüüp:
+
+Administrator: Administrator on tegelik konto, millel on parool ja mida saab kasutada inimkasutaja poolt.
+SYSTEM: SYSTEM ei ole tegelik konto, vaid "turva põhimõte" (security principal) ja sellel pole parooli. Praktiliselt, kui arvuti on ühendatud domeeniga, saavad SYSTEMina töötavad protsessid pääseda juurde domeeni serveritele, mis on erinevus võrreldes Administratori kontoga​3​.
+Õigused:
+
+Administrator: Administraatoritel on õigus teostada erinevaid süsteemiga seotud toiminguid, nagu süsteemi sulgemine, draiverite laadimine või süsteemi aja muutmine​4​.
+SYSTEM: SYSTEM-kontol on samad failiõigused nagu administraatoril, kuid seda kasutavad süsteem ja süsteemiteenused, mis võivad nõuda sügavamaid süsteemiõigusi kui administraatori tasemel.
+Üks tegevus, mille jaoks on vaja SYSTEMi õigusi (ja mille jaoks ei piisa administraatori õigustest), on süsteemiteenuste käitamine ja haldamine, mida tavaliselt teostab operatsioonisüsteem või süsteemi taustaprotsessid. SYSTEMi konto on mõeldud süsteemi enda jaoks ja sellel on ulatuslikumad õigused süsteemiressurssidele ja -ülesannetele, võimaldades seeläbi suuremat kontrolli arvuti üle kui administraatori konto.
 
 
 
@@ -44,7 +57,7 @@
 
 
 4.9
-
+-----
 
 
 ![4-9](https://github.com/daum88/opsys2023/assets/68275432/6c5c07f4-d640-491b-9f03-a62f571c327d)
