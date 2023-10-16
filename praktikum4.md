@@ -12,6 +12,13 @@
 4.3
 
 
+![4-2](https://github.com/daum88/opsys2023/assets/68275432/90c2f38c-df73-44f7-b081-6114e22c0cb3)
+
+4.4
+
+
+
+
 
 4.5
 
@@ -20,7 +27,7 @@
 ![4-5 2](https://github.com/daum88/opsys2023/assets/68275432/4ff5f5fb-7956-4535-8b85-a50edb898721)
 ![4-5 3](https://github.com/daum88/opsys2023/assets/68275432/dcdd5ac7-7f57-41e2-9818-876789f3d910)
 ![4-5](https://github.com/daum88/opsys2023/assets/68275432/cbe7e7c8-bb59-479d-998b-db61942b9971)
-![4-7](https://github.com/daum88/opsys2023/assets/68275432/54648c55-504e-49c3-a0c1-7425559422a2)
+
 
 4.6
 
