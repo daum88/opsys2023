@@ -47,6 +47,9 @@ SYSTEM: SYSTEM-kontol on samad failiõigused nagu administraatoril, kuid seda ka
 
 
 ![4-6](https://github.com/daum88/opsys2023/assets/68275432/5d23b1a2-2cd9-47f6-989c-6e612674b04f)
+
+
+
 4.7
 
 
