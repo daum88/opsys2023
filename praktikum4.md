@@ -1,3 +1,6 @@
+Praktikum 4 oli Windowsi seadistamine ja turvalisus. Pidin muutma Windowsi seadeid, et muuta see turvalisemaks. Otseselt midagi rasket ei olnud. lihtsalt oli aeganõudev.
+
+
 4.1
 
 
