@@ -20,6 +20,13 @@ Igal kasutajal on omanimeline grupp, et hõlbustada ressursside jagamist ja hald
 Minimaalsed õigused faili uusfail.txt sisu kuvamiseks on read (r) õigus failile ja execute (x) õigus kataloogile majasiseseks-kasutamiseks.
 
 
+
+<img width="222" alt="LINUX2" src="https://github.com/daum88/opsys2023/assets/68275432/880d240f-cfff-436b-9df1-49c061cbd502">
+<img width="371" alt="LINUX" src="https://github.com/daum88/opsys2023/assets/68275432/8d1112c8-50b2-4665-930e-8e8e65fe9381">
+
+
+
+
 Ülesanne 5-5:
 
 Setuid-õigus võimaldab programmi käivitada faili omaniku õigustes, isegi kui programmi käivitab mõni muu kasutaja.
