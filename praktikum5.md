@@ -1,4 +1,4 @@
-
+Viies praktikum oli Linux failiõiguste redigeerimine. Lõin erinevaid kasutajaid, gruppe jms.
 Ülesanne 5-1:
 
 a) Faili minufail.txt lugemiseks on vaja read õigust (r) kataloogile /tmp/kaust.
