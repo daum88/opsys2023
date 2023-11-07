@@ -1,3 +1,5 @@
+Seekordses praktikumis oli teemaks haakimine. Õppisime, kuidas lokaalseid ja võrgukettaid Windowsi ja linuxi keskkondades kasutada.
+
 1. Miks andmekandjad vajavad lähtestamist?
 Andmekandjad vajavad lähtestamist, et süsteem saaks neid õigesti tuvastada ja kasutada. Lähtestamine hõlmab tavaliselt partitsioonide loomist ja formaatimist, mis võimaldab operatsioonisüsteemil salvestada ja lugeda andmeid kettalt. See on oluline samm uue kõvaketta kasutusele võtmisel, et tagada andmete õige struktureerimine ja haldamine.
 
