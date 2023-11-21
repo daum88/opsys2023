@@ -1,3 +1,8 @@
+Selles praktikumis pidin uurima erinevaid ressursihaldusega seotud ülesandeid Ubuntus ja Windowsis. Otseseid probleeme ei olnud ja ülesandeid said tehtud ning teadmised tulevad tulevikus kasuks.
+
+
+
+
 | Küsimus                                         | Linux                            | Windows                              | Vastus (Linux \| Windows) |
 |-------------------------------------------------|----------------------------------|--------------------------------------|---------------------------|
 | Mitu protsessi kokku arvutis käib?              | `ps -aux \| wc -l`               | Task Manager -> Jõudlus              | 172 \| 118                |
