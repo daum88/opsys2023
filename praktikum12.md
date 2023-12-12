@@ -10,7 +10,7 @@ echo "Sisesta oma matriklinumber:"
 read matriklinumber
 echo "Tere, $nimi! Sinu eriala on $eriala ja matriklinumber on $matriklinumber."
 
-Ülesanne 4:
+Ülesanne 4:<img width="260" alt="12 4" src="https://github.com/daum88/opsys2023/assets/68275432/1ceecf16-6679-4a5e-b2ea-4e63efb68eb3">
 #!/bin/bash
 
 if [ $# -ne 2 ]; then
@@ -41,13 +41,22 @@ done
 
 Ülesanne 5:
 #!/bin/bash
-ps -A | grep "$1" | while read line; do
-    pid=$(echo $line | cut -d ' ' -f1)
-    name=$(echo $line | cut -d ' ' -f4)
+
+if [ $# -ne 1 ]; then
+    echo "Kasutus: $0 protsessi_nimi"
+    exit 1
+fi
+
+protsessi_nimi=$1
+
+ps -A | grep $protsessi_nimi | while read line; do
+    pid=$(echo $line | awk '{print $1}')
+    name=$(echo $line | awk '{print $4}')
     echo "Protsessi nimi: $name, PID: $pid"
 done
 
-Ülesanne 6:
+
+Ülesanne 6: <img width="271" alt="12 6" src="https://github.com/daum88/opsys2023/assets/68275432/bead6fc0-c955-4438-aa44-097054ace708">
 #!/bin/bash
 astenda() {
     tulemus=1
