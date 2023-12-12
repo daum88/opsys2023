@@ -1,4 +1,6 @@
 Seekordses prktikumis tegelesime skriptimiega Ubuntus. Sain proovida erineate skriptide loomist ja ka AI kasutamist oma töö tegemisel.
+
+
 Ülesanne 3:
 <img width="355" alt="12 3" src="https://github.com/daum88/opsys2023/assets/68275432/eab1349f-fd48-4012-b41c-3e6dcdd975ff">
 #!/bin/bash
