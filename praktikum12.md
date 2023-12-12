@@ -12,9 +12,32 @@ echo "Tere, $nimi! Sinu eriala on $eriala ja matriklinumber on $matriklinumber."
 
 Ülesanne 4:
 #!/bin/bash
-for fail in *.$1; do
-    mv "$fail" "${fail%.$1}.$2"
+
+if [ $# -ne 2 ]; then
+    echo "Kasutus: $0 algne_laiend uus_laiend"
+    exit 1
+fi
+
+algne_laiend=$1
+uus_laiend=$2
+
+if [[ $algne_laiend != .* ]]; then
+    algne_laiend=".$algne_laiend"
+fi
+
+if [[ $uus_laiend != .* ]]; then
+    uus_laiend=".$uus_laiend"
+fi
+
+for fail in *$algne_laiend; do
+    # Kontrolli, kas fail eksisteerib
+    if [ -f "$fail" ]; then
+        uus_nimi="${fail%$algne_laiend}$uus_laiend"
+        mv "$fail" "$uus_nimi"
+        echo "Faili nimi muudetud: $fail -> $uus_nimi"
+    fi
 done
+
 
 Ülesanne 5:
 #!/bin/bash
