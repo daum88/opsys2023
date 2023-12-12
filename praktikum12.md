@@ -41,19 +41,12 @@ done
 
 Ülesanne 5:
 #!/bin/bash
-
-if [ $# -ne 1 ]; then
-    echo "Kasutus: $0 protsessi_nimi"
-    exit 1
-fi
-
-protsessi_nimi=$1
-
-ps -A | grep $protsessi_nimi | while read line; do
-    pid=$(echo $line | awk '{print $1}')
-    name=$(echo $line | awk '{print $4}')
+ps -A | grep "$1" | while read line; do
+    pid=$(echo $line | cut -d ' ' -f1)
+    name=$(echo $line | cut -d ' ' -f4)
     echo "Protsessi nimi: $name, PID: $pid"
 done
+
 
 
 Ülesanne 6: <img width="271" alt="12 6" src="https://github.com/daum88/opsys2023/assets/68275432/bead6fc0-c955-4438-aa44-097054ace708">
