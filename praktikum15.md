@@ -13,6 +13,8 @@ Seekordses praktikumis pidime tegelema palju WSL ja dockeritega. Pidin looma, se
 <img width="1072" alt="4 a oige" src="https://github.com/daum88/opsys2023/assets/68275432/01c187f3-852d-433d-83d9-849a5401ec50">
 
 15.4 b
+
+
 6,77 eur-> 18. dec kuni 02. jan -> 6,77 eur/15 paeva = 0.45 senti paev
 kuu pikkus umbes 30 paeva -> 4 kuud -> 120 paeva
 hind kokku -> 120 * 0.45 = 54 eur
